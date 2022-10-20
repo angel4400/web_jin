@@ -1,0 +1,76 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    /* background: url('../images/login_bg.jpg')
+    no-repeat center; */
+    /* 背景图像不平铺/不重复/ 居中 */
+    background-size: cover;
+    /* 设置填充模式：背景图像覆盖整个容器 */
+    /* font-family: "Microsoft YaHei", "微软雅黑", "宋体", "Arial", "Helvetica", "sans-serif"; */
+}
+
+/* 登录注册盒子 */
+.loginAndRegBox {
+    width: 420px;
+    /* 宽度 */
+    height: 360px;
+    /* 高度 */
+    /* background-color: rgba(0, 204, 255, 0.47); */
+    /* 边框 */
+    border: 3px solid gold;
+    /* 背景颜色 */
+
+    /* 放正中间 */
+    position: absolute;
+    /* 绝对定位 */
+    left: 50%;
+    /* 左边距 */
+    top: 50%;
+    /* 上边距 */
+    transform: translate(-50%, -50%);
+    /* 位移 */
+}
+
+/* 后台管理系统图片 */
+.title-box {
+    height: 70px;
+    background: url('../images/login_title.png') no-repeat center;
+    margin-top: 20px;
+}
+
+/* 默认隐藏注册的盒子 */
+.reg-box {
+    display: none;
+}
+
+/* 表单 */
+.layui-form {
+    padding: 0 30px; /* 内填充 上下左右 */
+}
+
+/* 去注册链接放右边 */
+.links {
+    display: flex; /* flex弹性盒子布局 */
+    justify-content: flex-end; /* 右对齐 */
+}
+
+/* 去注册链接 */
+.links a {
+    font-size: 16px;
+}
+
+/* 表单项 */
+.layui-form-item {
+    position: relative; /* 相对定位 */
+}
+
+/* 图标 */
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
